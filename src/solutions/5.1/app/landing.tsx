@@ -1,10 +1,9 @@
 import {html, css} from "react-strict-dom";
 import {tokens} from "@/styles/tokens.stylex";
 
-export default function IndexRoute() {
+export default function LandingPage() {
     return (
         <html.div style={styles.container}>
-            {/*Write some code here */}
             <html.h1 style={styles.heading}>An amazing landing page for our product</html.h1>
             <html.p style={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </html.p>
             <html.div style={styles.buttonGroup}>
